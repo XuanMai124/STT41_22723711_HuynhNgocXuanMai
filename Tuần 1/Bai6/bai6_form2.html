@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            width: 500px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        textarea {
+            resize: none;
+            height: 100px;
+        }
+        .file-input {
+            margin-bottom: 10px;
+        }
+        .newsletter-checkbox {
+            margin-bottom: 20px;
+        }
+        .newsletter-checkbox label {
+            font-weight: normal;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group.border {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .form-group select {
+            width: auto;
+            padding: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            color: black;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Contact Us</h2>
+    <form>
+        <div class="form-group border">
+            <label>Your message:</label>
+            <label for="to">To</label>
+            <input type="text" id="to" name="to" value="Example Cafe" readonly>
+
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email" placeholder="Your email">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message here"></textarea>
+
+            <div class="file-input">
+                <label for="file">Attach File</label>
+                <input type="file" id="file" name="file">
+            </div>
+        </div>
+
+        <div class="form-group border">
+            <label>How you found us:</label>
+            <label for="hear">How did you hear of us</label>
+            <select id="hear" name="hear">
+                <option value="google">Google</option>
+                <option value="friend">Friend</option>
+                <option value="advertisement">Advertisement</option>
+                <option value="other">Other</option>
+            </select>
+
+            <div class="newsletter-checkbox">
+                <input type="checkbox" id="newsletter" name="newsletter" checked>
+                <label for="newsletter">Ensure this box is checked if you would like to receive email updates</label>
+            </div>
+        </div>
+
+        <button type="submit">Send message</button>
+    </form>
+</div>
+</body>
+</html>

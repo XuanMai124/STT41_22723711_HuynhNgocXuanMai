@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+            .form-container {
+                width: 540px;
+                background-color: #99ccff;
+                padding: 20px;
+                border-radius: 10px;
+                margin: 0 auto;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            .form-container h2 {
+                text-align: center;
+                background-color: #00CED1;
+                color: white;
+                padding: 10px;
+                border-radius: 10px 10px 0 0;
+            }
+            .form-container label {
+                display: block;
+                margin-top: 10px;
+            }
+            .form-container input, .form-container select, .form-container textarea {
+                width: 100%;
+                padding: 5px;
+                margin-top: 5px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            .form-container input[type="radio"], .form-container input[type="checkbox"] {
+                width: auto;
+                margin-right: 10px;
+            }
+            .form-container .buttons {
+                text-align: center;
+                margin-top: 20px;
+            }
+            .form-container button {
+                padding: 10px 20px;
+                border: none;
+                color: white;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .form-container button:hover {
+                background-color: #008B8B;
+            }
+            #chu{
+                text-align: center;
+                padding: 10px;
+                border-radius: 10px 10px 0 0;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <div class="form-container">
+            <h2 >Jackson Electronics</h2>
+            <h3 id="chu">Registration Form</h3>
+            <p id="chu">Register your Jackson Electronics product here </p>
+            <form>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name">
+    
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name">
+    
+                <label for="address1">Address #1:</label>
+                <input type="text" id="address1" name="address1">
+    
+                <label for="address2">Address #2:</label>
+                <input type="text" id="address2" name="address2">
+    
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+    
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state">
+    
+                <label for="zip">Zip:</label>
+                <input type="text" id="zip" name="zip">
+    
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="United States">United States</option>
+                </select>
+
+                <hr style="height: 3px; background-color: rgb(62, 72, 14); border: none;">
+    
+                <label for="product">Product:</label>
+                <select id="product" name="product">
+                    <option value="ScanMaster">ScanMaster</option>
+                </select>
+    
+                <label for="date-purchased">Date Purchased:</label>
+                <input type="date" id="date-purchased" name="date-purchased">
+    
+                <label for="serial-number">Serial #:</label>
+                <input type="text" id="serial-number" name="serial-number">
+    
+                <label>Used for:</label>
+                <input type="radio" id="home" name="used-for" value="Home">
+                <label for="home" style="display:inline;">Home</label>
+    
+                <input type="radio" id="business" name="used-for" value="Business">
+                <label for="business" style="display:inline;">Business</label>
+    
+                <input type="radio" id="government" name="used-for" value="Government">
+                <label for="government" style="display:inline;">Government</label>
+    
+                <input type="radio" id="educational" name="used-for" value="Educational">
+                <label for="educational" style="display:inline;">Educational Institution</label>
+    
+                <input type="radio" id="other" name="used-for" value="Other">
+                <label for="other" style="display:inline;">Other</label>
+    
+                <label>System (check all that apply):</label>
+                <input type="checkbox" id="windows" name="system" value="Windows">
+                <label for="windows" style="display:inline;">Windows</label>
+    
+                <input type="checkbox" id="macintosh" name="system" value="Macintosh">
+                <label for="macintosh" style="display:inline;">Macintosh</label>
+    
+                <input type="checkbox" id="unix" name="system" value="UNIX">
+                <label for="unix" style="display:inline;">UNIX</label>
+    
+                <input type="checkbox" id="other-system" name="system" value="Other">
+                <label for="other-system" style="display:inline;">Other</label>
+
+                <hr style="height: 3px; background-color: rgb(62, 72, 14); border: none;">
+    
+                <label for="comments">Comments?:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+    
+                <div class="buttons">
+                    <button type="submit">Click to register</button>
+                    <button type="button">Click to cancel</button>
+                </div>
+            </form>
+        </div>
+    
+    </body>
+    </html>
+</head>
+<body>
+    
+</body>
+</html>
