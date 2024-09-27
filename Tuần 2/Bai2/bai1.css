@@ -1,0 +1,145 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+#container{
+    height: 700px;
+    width: 970px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px rgb(104, 100, 100);
+}
+header{
+    border-left: 20px;
+    min-height: 100px;
+    width: 98%;
+    margin-top: 10px;
+    background-image:url("background.png");
+}
+.p1{
+    font-size: 25px;
+    color: white;
+    vertical-align: bottom;
+}
+.p2{
+    font-size: 15px;
+    color: white;
+    vertical-align: top;
+}
+nav{
+    width: 98%;
+    height: 30px;
+    background-color: rgb(157, 160, 163);
+}
+#a1{
+    color: black;
+    text-decoration: none;
+}
+.a2{
+    color: white;
+    text-decoration: none;
+}
+nav table{
+    float: left;
+}
+.se1{
+    float: inline-start;
+    width: 600px ;
+    height: 450px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-right: 1px solid black;
+}
+.ar1{
+    width: 600px ;
+    height: 200px;
+}
+.ar2{
+    width: 600px ;
+    height: 200px;
+}
+#div1{
+    float: left;
+    width:260px;
+    height: 195px;
+    border: 1px solid black;
+}
+#div1 img{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#div1 p{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#div2{
+    float: right;
+    width:320px;
+    height: 195px;
+}
+#div2 h1{
+    margin-top: 20px;
+}
+#div3{
+    float: left;
+    width:260px;
+    height: 195px;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+#div3 img{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#div3 p{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#div4{
+    float: right;
+    width:320px;
+    height: 195px;
+    margin-top: 40px;
+}
+#div4 h1{
+    margin-top: 20px;
+}
+.se2{
+    float: inline-start;
+    width: 300px ;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.se2 li{
+list-style: none;
+margin-top: 15px;
+padding-bottom: 18px;
+margin-right: 10px;
+border-bottom: 1px solid black;
+}
+.se3{
+    float: inline-start;
+    width: 300px ;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#div5 h1{
+    margin-left: 20px;   
+}
+#div6{
+    margin-left: 20px;
+}
+#div6 p{
+    padding-bottom: 5px;
+}
+footer{
+    width: 98%;
+    height: 30px;
+    border: 10px;
+    margin-top: 500px;
+    background-color: rgb(157, 160, 163);
+}
+footer p{
+    color: white;
+}
