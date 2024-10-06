@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Bai 1/Bai1.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div class="header--container">
+                <nav class="header--nav">
+                        <li> <a href="index.html">Home</a> </li>
+                        <li> <a href="products.html">Products</a></li>
+                        <li> <a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li> <a href="contact.html">Contact</a></li>
+                </nav>
+                <nav>
+                    <p class="header--logo">Sky World</p>
+                </nav>
+            </div>
+        </header>
+        <div class="body--container">
+            <span class="body--form">
+                <p>Registration Information</p>
+                <p>Start your travel planning now with our on-line tour registration
+                    form. Just tell us a little about yourself and your group and one of our travel
+                    experts will contact you to create the perfect custom built for your group's needs.</p>
+                <form class="body--form" action="">
+                    <label for="title">Title</label>
+                    <select name="title" id="title">
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                        <option value="Ms">Ms</option>
+                        <option value="Miss">Miss</option>
+                    </select>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="First name">
+                    <label for="mailing">Mailing Address</label>
+                    <input type="text" name="mailing" id="mailing" placeholder="Mailing Address">
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city" placeholder="City">
+                    <label for="country">Country</label>
+                    <input type="text" name="country" id="country" placeholder="Country">
+                    <label for="spec_question">Special question or requests about your tour</label>
+                    <textarea name="spec_question" id="spec_question" cols="30" rows="10"></textarea>
+                    <button class="form--butn--submit">Submit</button>
+                    <button class="form--butn--reset" type="reset">Reset</button>
+                </form>
+            </span>
+            <div class="body--gallery">
+                <div class="gallery--img"><img src="../Bai 1/sky.png" alt="Sky"></div>
+                <div>
+                    <p>You've arrived.</p>
+                    <p> Journey as great as the destination.</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer--container">
+                <p>2016 Sky World Tours. All rights reserved.</p>
+                <p>Contact information: Student Name | StudentID | Testing Date </p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
