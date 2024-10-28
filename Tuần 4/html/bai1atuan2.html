@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Cafe Menu</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <style>
+        .wrapper {
+            margin: 0px auto;
+        }
+
+        #k1 {
+            height: 550px;
+            max-width: 1090px;
+            border: 1px solid red;
+        }
+
+        header p {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 35px;
+            color: rgb(218, 59, 30);
+            text-shadow: 10px 20px 7px pink;
+        }
+
+        .nav-custom {
+            border-bottom: 1px solid black;
+        }
+
+        .nav-custom li {
+            margin-right: 20px;
+        }
+
+        .na2,
+        .na3 {
+            color: brown;
+            background-color: bisque;
+            font-size: 20px;
+        }
+
+        .sec1 a,
+        .sec2 a {
+            color: red;
+        }
+
+        .na2 h1,
+        .na3 h1 {
+            font-size: 1.5rem;
+            padding-left: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="k1" class="wrapper container">
+        <header class="d-flex align-items-center border-bottom" style="height: 100px;">
+            <p><b>EXAMPLE CAFE MENU</b></p>
+        </header>
+        <nav class="nav-custom mt-3">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#!">Starter</a></li>
+                <li class="nav-item"><a class="nav-link" href="#!">Main Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="#!">Desserts</a></li>
+            </ul>
+        </nav>
+        <nav class="na2 my-2">
+            <h1>Starter</h1>
+        </nav>
+        <section class="sec1">
+            <ul class="list-unstyled">
+                <li><span class="text-dark">Chesunt and Mushroom Goujons</span> <a href="#!">(v)</a></li>
+                <li><span class="text-dark">Goat Cheese</span> <a href="#!">(v)</a></li>
+                <li><span class="text-warning">HONEY SOY CHICKEN KEBABS</span> <a href="#!">(V)</a></li>
+                <li><span class="text-dark">Seafood Salad</span> <a href="#!">(v)</a></li>
+            </ul>
+            <a href="#"><b>Back to Top</b></a>
+        </section>
+        <nav class="na3 my-2">
+            <h1>Desserts</h1>
+        </nav>
+        <section class="sec2">
+            <ul class="list-unstyled">
+                <li>Lemon Sorbet <a href="#!">(v)</a></li>
+                <li>Chocolate Mud Pie <a href="#!">(v)</a></li>
+                <li>Pecan Pie <a href="#!">(v)</a></li>
+                <li>Selection of fine Cheeses from Around the World <a href="#!">(v)</a></li>
+            </ul>
+            <a href="#"><b>Back to Top</b></a>
+        </section>
+        <footer></footer>
+    </div>
+</body>
+
+</html>

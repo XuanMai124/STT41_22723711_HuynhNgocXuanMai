@@ -1,0 +1,84 @@
+.container{
+    margin: 0px;
+    padding: 0px;
+    width: 960px;
+    box-sizing: border-box;
+}
+
+section{
+    background-image: url("../img/back.jpg");
+    margin-right: 20px;
+}
+.st {
+    border: 1px dashed #c37822; 
+   
+}
+.body{
+    display: flex;
+} 
+section{
+    flex-basis: 19.5%;
+}
+.sty p{
+    margin: 4px;
+    color: #572e8b;
+}
+
+.content{
+    flex-basis: 75%;
+    
+    
+}
+.ct{
+    display: flex;
+}
+.content2 {
+    width: 65%; 
+  }
+  
+  .content3 {
+    width: 30%; 
+    background-color: #f9f4e4; 
+    padding: 1px;
+    border: 3px solid #f0d9a6; 
+
+  }
+  p{
+    color: rgb(193, 121, 121);
+  }
+  h2{
+    color: #ffba3d;
+  }
+  .khung{
+    width: 35%;
+    background-color: #f9f4e4;
+    border: 3px solid;
+    padding: 3px;
+  }
+  .vitri{
+    position: relative;
+  }
+  .vt1{
+    position: absolute;
+    top: 40px;
+    left: 530px;
+  }
+  .vt2 {
+    position: absolute;
+    bottom: 300px;
+    left: 160px;
+}
+
+.vt3 {
+  position: absolute;
+    bottom: 90px;
+    left: 600px;
+}
+.sty a{
+  text-decoration: none;
+}
+.sty a:hover{
+  color: #bdb7b0;
+  background-color: #c0a484;
+  font-size: 20px;
+}

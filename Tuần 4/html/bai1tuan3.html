@@ -1,0 +1,81 @@
+Tuan 3 Bai 1
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body class="bg-primary text-white">
+    <div class="container">
+        <header>
+            <div class="d-flex justify-content-between align-items-center border-bottom border-light pb-3">
+                <nav class="nav">
+                    <a class="nav-link text-white" href="index.html">Home</a>
+                    <a class="nav-link text-white" href="products.html">Products</a>
+                    <a class="nav-link text-white" href="services.html">Services</a>
+                    <a class="nav-link text-white" href="about.html">About</a>
+                    <a class="nav-link text-white" href="contact.html">Contact</a>
+                </nav>
+                <p class="h3 text-center fw-bold">Sky World</p>
+            </div>
+        </header>
+
+        <div class="row my-4">
+            <div class="col-md-6">
+                <h2>Registration Information</h2>
+                <p>Start your travel planning now with our on-line tour registration form. Just tell us a little about yourself and your group, and one of our travel experts will contact you to create the perfect custom-built tour for your group's needs.</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Title</label>
+                        <select class="form-select" id="title">
+                            <option value="Mr">Mr</option>
+                            <option value="Mrs">Mrs</option>
+                            <option value="Ms">Ms</option>
+                            <option value="Miss">Miss</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="First name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mailing" class="form-label">Mailing Address</label>
+                        <input type="text" class="form-control" id="mailing" placeholder="Mailing Address">
+                    </div>
+                    <div class="mb-3">
+                        <label for="city" class="form-label">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="City">
+                    </div>
+                    <div class="mb-3">
+                        <label for="country" class="form-label">Country</label>
+                        <input type="text" class="form-control" id="country" placeholder="Country">
+                    </div>
+                    <div class="mb-3">
+                        <label for="spec_question" class="form-label">Special question or requests about your tour</label>
+                        <textarea class="form-control" id="spec_question" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                    <button type="reset" class="btn btn-danger">Reset</button>
+                </form>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <img src="../img/sky.png" class="img-fluid" alt="Sky">
+                <p class="h4 mt-4">You've arrived.</p>
+                <p>Journey as great as the destination.</p>
+            </div>
+        </div>
+        <footer class="text-center border-top pt-4 mt-4">
+            <p>2016 Sky World Tours. All rights reserved.</p>
+            <p>Contact information: Student Name | StudentID | Testing Date</p>
+        </footer>
+    </div>
+</body>
+
+</html>
